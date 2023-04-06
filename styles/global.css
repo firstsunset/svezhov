@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Bauhaus';
+    src: url('../assets/fonts/BAUHS93.TTF');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baumans';
+    src: url('../assets/fonts/Baumans-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

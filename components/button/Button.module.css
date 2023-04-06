@@ -1,0 +1,38 @@
+.buttonNormal {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Baumans';
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.buttonNormal:hover {
+    background: white;
+    border: 1px solid white;
+    color: black;
+}
+
+.buttonPrimary {
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    font-family: 'Baumans';
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.buttonPrimary:hover {
+    background: black;
+    color: white;
+}

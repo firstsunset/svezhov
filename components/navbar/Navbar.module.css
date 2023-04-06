@@ -1,0 +1,37 @@
+.navbar {
+    max-width: 1920px;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    padding: 5px 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.navbarLogo {
+    width: 80%;
+    height: 80%;
+}
+
+.navbarLinksBlock {
+    display: flex;
+    gap: 40px;
+}
+
+.navbarLink {
+    text-decoration: none;
+    font-family: 'Baumans';
+    font-size: 20px;
+    line-height: 41px;
+    transition: 1s;
+}
+
+.navbarLink:visited {
+    color: black;
+}
+
+.navbarLink:hover {
+    border-bottom: 1px solid black;
+}
