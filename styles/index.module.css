@@ -1,43 +1,118 @@
-.main {
-    max-width: 1920px;
-    margin: 10px 20px 0 20px;
-    position: relative;
-    font-family: 'Baumans';
-    font-size: 46px;
-    letter-spacing: 6.8px;
-   
+.mainContainer {
+  position: relative;  
+  margin: 0 100px;
 }
 
-.mainWrapper {
-    height: 80vh;
-    background-image: url(../assets/main-image.jpg);
-    background-size: cover;
-    border-radius: 14px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
+.mainImage {
+    /* position: absolute; */
 }
 
 .mainTitle {
-    margin-bottom: 80px;
-}
-.mainButton {
-    width: 100%;
-    height: 40px;
-    background: transparent;
-    border: 1px solid white;
-    color: white;
-    font-family: 'Baumans';
-    font-size: 18px;
-    padding: 5px 20px;
-    border-radius: 6px;
-    cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 118px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: calc(100vw - 404px);
 }
 
-.mainButton:hover {
-    background: white;
-    border: 1px solid white;
-    color: black;
+.mainCardBlock {
+  width: 24vw;
+  left: 70vw;
+  top: 41.2vh;
+  position: absolute;
+}
+
+.mainCardIconBlock {
+  left: 15px;
+  top: -45px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: absolute;
+}
+
+.mainCardTextBlock {
+  bottom: 52%;
+  left: 43.5%;
+  position: absolute;
+}
+
+.mainCardImage {
+  border-radius: 20px;
+  transform: rotate(15deg);
+  border: 8px solid #FFFFFF;
+}
+
+.mainButtonBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 38px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 44px;
+  color: #FFFFFF;
+  width: 384px;
+}
+
+.mainButtonBlock a {
+  text-decoration: none;
+}
+
+.mainServicesBlock {
+margin-top: 80%;
+}
+
+.mainServicesTitle {
+  margin-right: auto;
+  margin-bottom: 34px;
+  width: 342px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 110px;
+  color: #FFFFFF;
+  margin-left: auto;
+}
+
+.mainServiceslist {
+  margin: 0 13.8% 136px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 100px;
+}
+
+.mainLastBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.mainLastBlockTitle {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #EB9264;
+  font-family: 'Montserrat';
+}
+
+.mainLastBlockText {
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
 }

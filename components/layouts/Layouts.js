@@ -1,11 +1,16 @@
 import React from 'react';
-import Navbar from '../navbar/Navbar';
+
+import Header from '../header/Header';
+import Footer from '../footer/Footer';
+import styles from './Layouts.module.css';
+
 const Layout = ({ children }) => {
   return (
-    <>
-      <Navbar />
+    <div className={styles.container}>
+      <Header />
       {children}
-    </>
+      <Footer />
+    </div>
   );
 };
 export default Layout;

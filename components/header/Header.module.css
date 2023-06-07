@@ -1,0 +1,30 @@
+.header {
+    padding: 17px 100px 0;
+    max-width: 1920px;
+    width: 100%;
+    height: 146px;
+    box-sizing: border-box;
+    background-color: #CC6733;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 17px;
+}
+
+.navbarLink {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.navbarLink:visited {
+    color: #FFFFFF;
+}
