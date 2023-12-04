@@ -9,7 +9,7 @@ import Card from '../assets/DSCF2673.jpg';
 import MainCardIcon from '../assets/MainCardIcon';
 import MainCardText from '../assets/MainCardText';
 import MainButton from '../components/button/Button';
-import MainSvg from '../components/MainSvg/MainSvg';
+import MainSvg from '../components/mainSvg/MainSvg';
 import ServicesItem from '../components/servicesItem/ServicesItem';
 import Logo from '../assets/Logo';
 
